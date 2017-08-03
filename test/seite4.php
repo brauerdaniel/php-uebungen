@@ -5,14 +5,14 @@
  * Date: 02.08.2017
  * Time: 11:15
  */
-$username = $_POST["username"];
 $passwort = $_POST["passwort"];
 
-if($username=="Nils" && $passwort=="php-einfach")
-{
-    echo "Zugriff erlaubt";
-}
+if($passwort=="geheim")
+    {
+        echo "Herzlich Willkommen im internen Bereich";
+    }
 else
-{
-    echo "Zugriff fehlgeschlagen";
-}
+    {
+        echo "Das Passwort ist leider falsch";
+    }
+?>
