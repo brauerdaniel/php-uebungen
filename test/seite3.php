@@ -1,6 +1,9 @@
 <!doctype html>
 
 <form action="seite4.php" method="post">
-    <input type="Password" name="passwort" />
-    <input type="Submit" value="Absenden" />
+Username:<br>
+<input type="Text" name="username" /><br />
+Passwort:<br />
+<input type="Password" name="passwort" /><br />
+<input type="submit" value="Absenden" /><br />
 </form>
